@@ -1,0 +1,9 @@
+escape ^z^z
+
+setenv IN_SCREEN 1
+startup_message off
+
+defscrollback 10000
+
+hardstatus on
+hardstatus alwayslastline "%{= wk} %-w%{=bu bw}%n %t%{-}%+w %= %{= wb}%y/%m/%d(%D) %{=b wm}%c"
